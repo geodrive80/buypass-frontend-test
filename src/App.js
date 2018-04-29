@@ -4,9 +4,6 @@ import { fetchPots } from "./state/actions";
 import "./App.css";
 
 class App extends Component {
-  componentWillMount() {
-    this.props.fetchArticles();
-  }
   render() {
     return (
       <main className="App">
@@ -40,10 +37,4 @@ class App extends Component {
   }
 }
 
-const mapDispatchToProps = dispatch => {
-  return {
-    fetchArticles: () => dispatch(fetchPots())
-  };
-};
-
-export default connect(undefined, mapDispatchToProps)(App);
+export default App;

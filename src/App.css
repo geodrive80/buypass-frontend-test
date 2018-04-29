@@ -1,4 +1,5 @@
 .App {
+  background-color: #424242;
   text-align: center;
 }
 
@@ -14,6 +15,7 @@
 }
 
 .App-content {
+  color: #ECEFF1;
   font-size: large;
   padding: 25px;
 }
