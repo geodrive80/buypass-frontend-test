@@ -8,11 +8,18 @@ This is a recruitment project for front end developer applying to Buypass.
 * git
 * Github account
 
-# Getting started
+## Getting started
 Get up and running by cloning the project and run `yarn install` to install all dependencies. To start the development server run `yarn start`. This will launch your default web browser at localhost:3000 with HMR enabled.
 
-# Share your solution
-Commit your changes and 
+## The task at hand
+We'd like you to create a small React Redux application displaying pot information from a fictive lottery. You are free to solve the task as you want, any third party library, project architecture or component structure is up to you. We've used create-react-app to bootstrap the project, and created the redux store and actions for you, use that as you please. Launch the application to see a bit more description.
 
+## Share your solution
+Commit your changes and either create a Pull Request to origin or share the project with us on your repository hosting service.
+
+## Any questions?
+Contact information is provided in the accompanying email.
+* For help with any technical problems contact Leiv Fredrik Berge.
+* All other questions can be directed at Jørn Råstad.
 
 Good luck!
