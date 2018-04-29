@@ -1,0 +1,77 @@
+{
+  "pots": [
+    {
+      "title": "Frist onsdag kl. 18.00",
+      "description": "Ca. 56 mill.",
+      "gameId": 18,
+      "potAmount": 56000000,
+      "gameName": "Et pengespill",
+      "date": "2018-05-02",
+      "probability": "Vinnersjanse 1:98 mill. per rekke"
+    },
+    {
+      "title": "Frist tirsdag kl. 17.00",
+      "description": "2 mill.",
+      "gameId": 15,
+      "potAmount": 2000000,
+      "gameName": "Fresht spill",
+      "date": "2018-05-01",
+      "probability": "Vinnersjanse 1:320000 per kupong"
+    },
+    {
+      "title": "Frist lørdag kl. 18.00",
+      "description": "Ca. 14 mill.",
+      "gameId": 1,
+      "potAmount": 14000000,
+      "gameName": "Raske penger",
+      "date": "2018-04-28",
+      "probability": "Vinnersjanse 1:5,4 mill. per rekke"
+    },
+    {
+      "title": "Frist lørdag kl. 18.00",
+      "description": "Ca. 2,1 mill.",
+      "gameId": 6,
+      "potAmount": 2100000,
+      "gameName": "Penger for livet",
+      "date": "2018-04-28",
+      "probability": "Vinnersjanse 1:550 000 per rekke"
+    },
+    {
+      "title": "Bonuspotter Midtukekupongen",
+      "description": "Ca. 2,3 mill. kr. (fulltid)",
+      "gameId": 10,
+      "potAmount": 2300000,
+      "gameName": "Bonusspill",
+      "date": "2018-04-26",
+      "probability": "Vinnersjanse 12 rette 1:531441"
+    },
+    {
+      "title": "Dobbel jackpot Pausetipping Midtuke",
+      "description": "Ca. 120.000 kr. (pause)",
+      "gameId": 3,
+      "potAmount": 120000,
+      "gameName": "Bonusspill",
+      "date": "2018-04-27"
+    },
+    {
+      "title": "Frist fredag kl. 19.00",
+      "description": "Ca. 403 mill.",
+      "gameId": 16,
+      "potAmount": 403000000,
+      "isEuroJackpotInternationalPot": true,
+      "isIsEuroJackpotNationalPot": false,
+      "gameName": "Internasjonalt bonusspill",
+      "date": "2018-04-27",
+      "probability": "Vinnersjanse 1:95 mill. per rekke"
+    },
+    {
+      "title": "Frist fredag kl. 19.00",
+      "description": "1 mill.",
+      "gameId": 17,
+      "potAmount": 1000000,
+      "gameName": "Lokalt spill",
+      "date": "2018-04-27",
+      "probability": "Vinnersjanse hovedpremie 1:90.000"
+    }
+  ]
+}
