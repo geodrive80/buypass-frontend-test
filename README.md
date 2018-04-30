@@ -15,11 +15,11 @@ Get up and running by cloning the project and run `yarn install` to install all 
 We'd like you to create a small React Redux application displaying pot information from a fictive lottery. You are free to solve the task as you want, any third party library, project architecture or component structure is up to you. We've used create-react-app to bootstrap the project, and created the redux store and actions for you, use that as you please. Launch the application to see a bit more description.
 
 ## Share your solution
-Commit your changes and either create a Pull Request to origin or share the project with us on your repository hosting service.
+Clone the project and share your solution with us on your personal GitHub repository.
 
 ## Any questions?
 Contact information is provided in the accompanying email.
 * For help with any technical problems contact Leiv Fredrik Berge.
-* All other questions can be directed at Jørn Råstad.
+* All other questions can be directed to Jørn Raastad.
 
 Good luck!
