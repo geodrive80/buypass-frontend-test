@@ -1,6 +1,6 @@
 export default function getVisiblePots(pots, from, size, isAscending) {
   const sortedPots = pots.sort(getSortFn(isAscending));
-  return size ? sortedPots.slice(from, size) : sortedPots.slice(from);
+  return size ? sortedPots.slice(from, size) : [...sortedPots];
 }
 
 function getSortFn(sortAscending) {

@@ -1,0 +1,18 @@
+.pot-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pot-list .pot {
+    width: 45%;
+    margin: 1em;
+}
+
+.pot-list .pot .inner {
+    border: solid 1px #222;
+    background-color: #fafafa;
+    text-align: left;
+    padding: 1em;
+}

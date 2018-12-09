@@ -16,10 +16,11 @@ export default function reducer(state = {}, action) {
       };
 
     case FETCH_POTS_SUCCESS:
+      const { pots } = action;
       return {
         ...state,
-        pots: action.response.pots,
-        visiblePots: getVisiblePots(action.response.pots, state.from, state.size, state.isAscending),
+        pots,
+        visiblePots: getVisiblePots(pots, state.from, state.size, state.isAscending),
         isLoading: false
       };
 
@@ -34,6 +35,7 @@ export default function reducer(state = {}, action) {
       return {
         ...state,
         size: 0,
+        from: state.size,
         visiblePots: getVisiblePots(state.pots, state.from, 0, state.isAscending)
       };
 

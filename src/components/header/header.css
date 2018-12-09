@@ -1,0 +1,27 @@
+header {
+    margin-bottom: 1em;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px;
+}
+
+header h4 {
+    margin: 0;
+    padding: 0;
+}
+
+header .controls button {
+    border: 0;
+    padding: 5px;
+}
+
+header .controls button.active {
+    background-color: black;
+    color: #fafafa;
+}
+
+

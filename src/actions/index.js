@@ -6,9 +6,9 @@ export const SET_SHOW_ALL = 'SET_SHOW_ALL';
 
 export const fetchPots = () => ({ type: FETCH_POTS });
 
-export const fetchPotsSuccess = response => ({
+export const fetchPotsSuccess = pots => ({
   type: FETCH_POTS_SUCCESS,
-  response
+  pots
 });
 
 export const fetchPotsFailure = error => ({
@@ -21,7 +21,4 @@ export const setSorting = isAscending => ({
   isAscending
 });
 
-export const setShowAll = showAll => ({
-  type: SET_SHOW_ALL,
-  showAll
-});
+export const setShowAll = () => ({ type: SET_SHOW_ALL });

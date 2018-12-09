@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { setSorting } from '../../actions';
-
+import './header.css';
 
 class Header extends Component {
   constructor(props) {
@@ -14,12 +14,28 @@ class Header extends Component {
   }
 
   render() {
+    const { isAscending } = this.props;
     return (
       <header>
-        <div className="logo">Norsk Tipping</div>
-        <div className="controls">
-          <button type="button" onClick={() => this.setSorting(false)}>Pott stor-liten</button>
-          <button type="button" onClick={() => this.setSorting(true)}>Pott liten-stor</button>
+        <div className="container">
+          <div className="controls">
+            <h4>Sortering</h4>
+            <button
+              type="button"
+              className={isAscending === false ? 'active' : ''}
+              onClick={() => this.setSorting(false)}
+            >
+              Pott stor-liten
+            </button>
+
+            <button
+              type="button"
+              className={isAscending === true ? 'active' : ''}
+              onClick={() => this.setSorting(true)}
+            >
+              Pott liten-stor
+            </button>
+          </div>
         </div>
       </header>
     )
@@ -27,7 +43,7 @@ class Header extends Component {
 }
 
 const mapStateToProps = state => ({
-  sortAscending: state.sortAscending
+  isAscending: state.isAscending
 });
 
 const mapDispatchToProps = dispatch => ({
