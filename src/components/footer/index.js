@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { setShowAll } from '../../actions';
+import './footer.css';
 
 class Footer extends Component {
   constructor(props) {
@@ -19,7 +20,11 @@ class Footer extends Component {
     return (
       <footer>
         {
-          showMore ? <button onClick={this.loadMore}>Vis flere potter ({ invisiblePots })</button> : null
+          showMore ? (
+            <button
+              onClick={this.loadMore}
+            >Vis flere potter ({ invisiblePots }) >
+            </button>) : null
         }
       </footer>
     );
